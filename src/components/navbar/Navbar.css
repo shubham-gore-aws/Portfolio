@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin:20px 170px ;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-connect {
+    padding: 20px 30px;
+    border-radius: 50px;
+/**
+ * Sets a linear gradient background for an element.
+ * The gradient starts at 267 degrees with color #DA7c25 at 0.36% and color #B923E1 at 102.06%.
+ */
+background: linear-gradient(267deg, #DA7c25 0.36%, #B923E1 102.06%);
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.nav-connect:hover{
+
+transform: scale(1.05);
+}
